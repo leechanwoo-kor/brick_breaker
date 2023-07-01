@@ -1,0 +1,19 @@
+name: brick_breaker
+description: Brick Breaker is a fun and addictive game where you break bricks using a bouncing ball.
+version: 0.0.0
+publish_to: none
+
+environment:
+  sdk: ^2.16.0
+  flutter: ^2.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flame: ^1.8.0
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
